@@ -1,33 +1,27 @@
-# Instructions for the reproducibility project
+# Инструкции для проекта "Reproducibility"
 
-This repo contains instructions for the students about git usage and projects update.
+В этой папке лежат инструкции для студентов.
 
-## Project description
+## Описание проекта
 
-The aim of current project is to learn python for computational biology through reproducing of some images from recent papers.
-We encourage the students of the Faculty of Bioengineering and Bioinformatics, MSU, to share their results and code at Github.
+Цель проекта -- обучить Python в биоинформатике через воспроизведение результатов статей. 
 
-The instructors of Python course at FBB selected a set of recent papers in top journals that students may reproduce. 
-Reproducibility of each paper is supervised by the instructor, who does not contribute to the code. 
-One paper is supervised by a team of students.
+## GitHub инструкции
 
-## GitHub instructions for students
+1. Зарегистрируйтесь на GitHub. Перейдите на страницу организации [Reproducibility organisation](https://github.com/Reproducibility-FBB-MSU) и добавьтесь в нее (или же напишите одному из преподавателей свой никнейм на сайте). Скорее всего, придется подождать ответ 
 
-1. Sign up to GitHub. Go to [Reproducibility organisation](https://github.com/Reproducibility-FBB-MSU) and request access to it. You might need to wait for the admins' response.
-
-2. Install git on your computer with code for your project. For example, you can use conda: 
+2. Установите git у себя на локальном компьютере. Например, с помощью conda: 
 
 ```
 conda install git
 ```
 
-3. Go to an empty directory. Clone your project to this folder. Example for terminal: 
+3. Создайте пустую папку. Клонируйте ваш проект в эту папку (clone). Например: 
 
 ```git clone https://github.com/Reproducibility-FBB-MSU/instructions.git```
 
-4. Go to the created directory with project. Let's create your first commit. For example, add your name to the README.md to the list of contributors. Open README.md in any text editor and add your name to the list of contibutors (add this section is absent). Use [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to get acquainted with markup basics. Save your changes. 
-
-Add changed file, commit and push changes:
+4. Зайдите в созданную директорию с проектом. Сделайте первый коммит.
+Например, добавьте свое имя в README.md. Используйте [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Сохраните изменения. Добавтье файл, сделайте коммит и push:
 
 ```
 git add README.md
